@@ -1,9 +1,9 @@
 <header class="site-header">
-  <h1><a href="{{ "/" | relURL }}" style="text-decoration: none; color: inherit;">{{ .Site.Title }}</a></h1>
+  <h1><a href="{{ .Site.BaseURL }}" style="text-decoration: none; color: inherit;">{{ .Site.Title }}</a></h1>
   <p class="subtitle">{{ .Site.Params.subtitle }}</p>
 </header>
 <nav class="site-nav">
-  <a href="{{ "/" | relURL }}">Home</a>
+  <a href="{{ .Site.BaseURL }}">Home</a>
   <a href="{{ "about/" | relURL }}">About</a>
   <a href="{{ "journal/" | relURL }}">Journal</a>
 </nav>
