@@ -65,6 +65,11 @@ The renovation spans from 2021 to the present — a story of bureaucratic naviga
 
 The central courtyard, paved with fieldstones under a century of soil, animal droppings, and grass. A cherry tree in full bloom draws starlings in June. Lavender in a planter swarms with yellow butterflies on summer days.
 
+<figure>
+<img src="../images/supplementary/cherry-blossom-courtyard.jpg" alt="Cherry blossom in the courtyard">
+<figcaption>The courtyard cherry tree in bloom.</figcaption>
+</figure>
+
 ### The South Field & Wooden Deck
 
 An oblong wooden deck built by Philipp and Tomasz, coated with red fir oil. For listening to music, reading, learning languages through a headset, or just watching the clouds. In winter, a brazier of flaming firewood is placed beside it.

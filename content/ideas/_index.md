@@ -75,4 +75,4 @@ The project engages honestly with criticism:
 
 <p class="divider">· · ·</p>
 
-<p class="text-center text-muted" style="font-size: 0.85rem;">The theoretical framework is elaborated in the <a href="https://doi.org/10.3389/fsoc.2023.1164293">Frontiers in Sociology article</a> and the <a href="https://doi.org/10.1515/9783839448618">De Gruyter monograph</a>.</p>
+<p class="text-center text-muted" style="font-size: 0.85rem;">The theoretical framework is elaborated in the <a href="https://doi.org/10.3389/fsoc.2023.1164293">Frontiers in Sociology article</a> and the <a href="https://www.degruyterbrill.com/document/doi/10.1515/9783839448618/html">De Gruyter monograph</a>.</p>

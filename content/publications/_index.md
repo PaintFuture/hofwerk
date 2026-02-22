@@ -23,16 +23,10 @@ The article that anchors the project in international academic discourse. It con
 
 Three volumes chronicle the physical and intellectual development of the project. Each is structured around a character prototype — a young person whose story illuminates the project's pedagogical and social dimensions.
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
-<figure style="flex: 1; min-width: 200px;">
+<figure style="max-width: 360px;">
 <img src="../images/covers/tomasz-en.jpg" alt="Tomasz — Volume 1 cover">
 <figcaption>Volume 1 — English edition</figcaption>
 </figure>
-<figure style="flex: 1; min-width: 200px;">
-<img src="../images/covers/ludwik-en.jpg" alt="Ludwik — Volume 2 cover">
-<figcaption>Volume 2 — English edition</figcaption>
-</figure>
-</div>
 
 ### Tomasz — Volume 1
 
@@ -50,16 +44,10 @@ Three volumes chronicle the physical and intellectual development of the project
 
 [English edition](https://buchshop.bod.de/ludwik-notes-on-future-ways-of-learning-working-and-living-joachim-broecher-9783757808129) · [German edition](https://buchshop.bod.de/ludwik-oder-ueber-das-lernen-arbeiten-und-leben-der-zukunft-joachim-broecher-9783756821334)
 
-<div style="display: flex; gap: 2rem; flex-wrap: wrap; margin: 2rem 0;">
-<figure style="flex: 1; min-width: 200px;">
+<figure style="max-width: 360px;">
 <img src="../images/covers/tomasz-de.jpg" alt="Tomasz — German edition cover">
 <figcaption>Volume 1 — German edition</figcaption>
 </figure>
-<figure style="flex: 1; min-width: 200px;">
-<img src="../images/covers/ludwik-de.jpg" alt="Ludwik — German edition cover">
-<figcaption>Volume 2 — German edition</figcaption>
-</figure>
-</div>
 
 ### Ragnar — Volume 3
 
@@ -75,7 +63,7 @@ Three volumes chronicle the physical and intellectual development of the project
 
 Published by De Gruyter, December 2025. 192 pages, 100 color illustrations. A structured academic treatment with an extensive thematic index covering topics from social sculpture (Beuys) to Wanderjahre, from control society (Deleuze) to utopian method.
 
-[Publisher page →](https://doi.org/10.1515/9783839448618)
+[Publisher page → De Gruyter](https://www.degruyterbrill.com/document/doi/10.1515/9783839448618/html)
 
 ---
 
