@@ -6,7 +6,7 @@ theme = 'hofwerk'
 [params]
   subtitle = 'Transformative Community Projects'
   description = 'Exploring sustainable forms of learning, working, and living from a farmstead in Anhalt, Eastern Germany.'
-  author = 'Broecher'
+  author = 'Bröcher'
 
 [markup]
   [markup.goldmark]
