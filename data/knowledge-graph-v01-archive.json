@@ -1,0 +1,645 @@
+{
+  "meta": {
+    "title": "Transformative Community Project — Knowledge Graph",
+    "version": "0.1",
+    "sources": [
+      "Broecher & Painter (2023) Frontiers in Sociology",
+      "Broecher (2023a) Tomasz — Vol. 1",
+      "Broecher (2023b) Ludwik — Vol. 2",
+      "Broecher (2024) Ragnar — Vol. 3"
+    ]
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Transformative Community Project",
+      "type": "root",
+      "description": "An integrated model for sustainable forms of learning, working, and living, anchored in a farmstead in Anhalt, East Germany (est. 1884, acquired 2020).",
+      "children": ["foundations", "pillars", "farm", "community", "creative", "commercial"]
+    },
+    {
+      "id": "foundations",
+      "label": "Foundations",
+      "type": "domain",
+      "description": "The WHY — diagnosis of modern society's problems and the philosophical response.",
+      "parent": "root",
+      "children": ["alienation", "communitarianism", "civil_society", "sustainability"]
+    },
+    {
+      "id": "alienation",
+      "label": "Alienation & Disintegration",
+      "type": "concept",
+      "description": "Work alienation, family fragmentation, escapist virtual worlds, loss of meaning. The diagnosis that motivates the project.",
+      "parent": "foundations",
+      "references": ["Sayers 2011", "Shantz et al. 2014/2015", "Bousquet 2023", "Marcuse 2014", "Fromm 2013"],
+      "tags": ["diagnosis", "critique", "sociology"],
+      "links": ["work_income", "learning"]
+    },
+    {
+      "id": "communitarianism",
+      "label": "Communitarianism",
+      "type": "concept",
+      "description": "Philosophical framework: decline of values and solidarity under neoliberalism. Preserves individual freedom while embedding people socially.",
+      "parent": "foundations",
+      "references": ["Taylor 1989/2012", "Sandel 2008", "Walzer 2009", "MacIntyre 2014"],
+      "tags": ["philosophy", "ethics", "community"]
+    },
+    {
+      "id": "civil_society",
+      "label": "Active Civil Society",
+      "type": "concept",
+      "description": "Citizens taking social, economic, and educational responsibility rather than relying solely on state institutions.",
+      "parent": "foundations",
+      "references": ["Liebert & Trenz 2009", "Wright 2010", "Pérez-Díaz 2014", "Zuk & Zuk 2022"],
+      "tags": ["politics", "governance", "agency"],
+      "links": ["entrepreneurship", "deleuze_control"]
+    },
+    {
+      "id": "deleuze_control",
+      "label": "From Control Society to Civil Society",
+      "type": "concept",
+      "description": "Deleuze's concept of the society of control as starting point for reimagining civic agency. Central framing in Ludwik and Ragnar.",
+      "parent": "civil_society",
+      "references": ["Ludwik Ch.1", "Ragnar Ch.2"],
+      "tags": ["philosophy", "critical_theory"]
+    },
+    {
+      "id": "sustainability",
+      "label": "Sustainability & UN SDGs",
+      "type": "concept",
+      "description": "Orientation toward the 2030 Agenda — sustainable development for people, nature, wildlife, and the planet.",
+      "parent": "foundations",
+      "references": ["United Nations 2016"],
+      "tags": ["ecology", "global", "policy"]
+    },
+    {
+      "id": "pillars",
+      "label": "Pillars",
+      "type": "domain",
+      "description": "The WHAT — the five key elements of the transformative model.",
+      "parent": "root",
+      "children": ["work_income", "learning", "entrepreneurship", "transformation"]
+    },
+    {
+      "id": "work_income",
+      "label": "Work, Income & Work-Life Balance",
+      "type": "pillar",
+      "description": "Rethinking labor: meaningful work, diverse roles (manual + intellectual), part-time/freelance, self-determination.",
+      "parent": "pillars",
+      "children": ["ubi", "work_life_balance", "meaningful_labor"],
+      "links": ["alienation", "everyday_economy"]
+    },
+    {
+      "id": "ubi",
+      "label": "Unconditional Basic Income",
+      "type": "concept",
+      "description": "Financial foundation enabling community participation, entrepreneurship, and social responsibility. Dismantles welfare bureaucracy.",
+      "parent": "work_income",
+      "references": ["McKay 2001", "Pateman 2004", "Standing 2004", "Van Parijs 2013", "Torry 2019", "Beck et al. 2015"],
+      "tags": ["economics", "policy", "UBI"]
+    },
+    {
+      "id": "work_life_balance",
+      "label": "Work-Life Balance",
+      "type": "concept",
+      "description": "Healthier relationship between work and personal life. Deceleration, reduced commuting, space for contemplation.",
+      "parent": "work_income",
+      "references": ["Guest 2002", "Crompton & Lyonette 2006", "Bhende et al. 2020"],
+      "tags": ["wellbeing", "health"]
+    },
+    {
+      "id": "meaningful_labor",
+      "label": "Meaningful Labor",
+      "type": "concept",
+      "description": "Crafts alongside intellectual work, equally valued. Roofers and philosophers, carpenters and educators working together.",
+      "parent": "work_income",
+      "tags": ["craftsmanship", "diversity", "dignity"],
+      "links": ["furniture", "construction", "agriculture_domain"]
+    },
+    {
+      "id": "learning",
+      "label": "Learning & Education",
+      "type": "pillar",
+      "description": "Self-directed, community-oriented learning as alternative to institutional schooling.",
+      "parent": "pillars",
+      "children": ["self_directed", "experiential", "community_learning", "youth_journeying"],
+      "links": ["alienation"]
+    },
+    {
+      "id": "self_directed",
+      "label": "Self-Directed Learning",
+      "type": "concept",
+      "description": "Compulsory schooling converted to self-designed compulsory education. Learners choose their path.",
+      "parent": "learning",
+      "tags": ["pedagogy", "autonomy"]
+    },
+    {
+      "id": "experiential",
+      "label": "Experiential Education",
+      "type": "concept",
+      "description": "Learning by doing — Dewey, Hahn, Weikart's HighScope model. Action-oriented, nature-embedded.",
+      "parent": "learning",
+      "references": ["Broecher 2015", "Sennett 2009", "Patchett 2017"],
+      "tags": ["pedagogy", "hands-on"]
+    },
+    {
+      "id": "community_learning",
+      "label": "Community-Oriented Learning",
+      "type": "concept",
+      "description": "Intergenerational learning, diverse role models (especially male presence), cooperative skill-building.",
+      "parent": "learning",
+      "tags": ["pedagogy", "social"]
+    },
+    {
+      "id": "youth_journeying",
+      "label": "Youth Journeying",
+      "type": "concept",
+      "description": "Adolescents move between projects — farm to mill to urban workshop — self-determined years of exploration. Reimagined apprenticeship.",
+      "parent": "learning",
+      "references": ["Sennett 2009", "Shu et al. 2020"],
+      "tags": ["youth", "mobility", "apprenticeship"],
+      "links": ["entrepreneurship"]
+    },
+    {
+      "id": "entrepreneurship",
+      "label": "Entrepreneurship & Community-Building",
+      "type": "pillar",
+      "description": "Reviving abandoned properties, creating local economies, commons-based resource sharing.",
+      "parent": "pillars",
+      "children": ["community_enterprise", "commons", "rural_revitalization"],
+      "links": ["civil_society", "vacant_properties"]
+    },
+    {
+      "id": "community_enterprise",
+      "label": "Community-Based Enterprise",
+      "type": "concept",
+      "description": "Entrepreneurial communities in structurally weak areas. Survival skills, cultural adaptation.",
+      "parent": "entrepreneurship",
+      "references": ["Markley et al. 2015", "Kennedy 2021", "Buratti et al. 2022", "Torri 2010"],
+      "tags": ["economics", "local"]
+    },
+    {
+      "id": "commons",
+      "label": "The Commons",
+      "type": "concept",
+      "description": "Shared resources, jointly used land — medieval pastures to modern commons projects. Tension with GDR socialism memory.",
+      "parent": "entrepreneurship",
+      "references": ["Bollier & Helfrich 2012", "Baldauf & Gruber 2016", "Kirwan et al. 2016", "Hardin 1968"],
+      "tags": ["economics", "governance", "history"]
+    },
+    {
+      "id": "rural_revitalization",
+      "label": "Rural Revitalization",
+      "type": "concept",
+      "description": "Abandoned farms, dairies, vacant properties in East Germany as opportunities for new communities.",
+      "parent": "entrepreneurship",
+      "tags": ["geography", "development"],
+      "links": ["vacant_properties", "farm"]
+    },
+    {
+      "id": "transformation",
+      "label": "Transformation",
+      "type": "pillar",
+      "description": "The binding philosophy — seeing oneself as part of economic, social, cultural, and ecological transformation.",
+      "parent": "pillars",
+      "children": ["transform_economic", "transform_social", "transform_cultural", "transform_ecological"],
+      "links": ["sustainability"]
+    },
+    {
+      "id": "transform_economic",
+      "label": "Economic Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "From capitalist accumulation toward commons-based, community-embedded economies.",
+      "tags": ["economics"]
+    },
+    {
+      "id": "transform_social",
+      "label": "Social Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "Rebuilding social cohesion, belonging, intergenerational care. Philosophy of O'Donohue.",
+      "references": ["O'Donohue 1997/1998"],
+      "tags": ["sociology", "belonging"]
+    },
+    {
+      "id": "transform_cultural",
+      "label": "Cultural Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "Heritage preservation, Polish-German exchange, literature, music, crafts as cultural renewal.",
+      "tags": ["culture", "heritage"],
+      "links": ["polish_exchange", "music", "heritage"]
+    },
+    {
+      "id": "transform_ecological",
+      "label": "Ecological Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "Ecological building materials, organic farming, reduced mobility, climate-positive living.",
+      "tags": ["ecology", "climate"],
+      "links": ["agriculture_domain", "eco_materials"]
+    },
+    {
+      "id": "farm",
+      "label": "The Farm in Anhalt",
+      "type": "domain",
+      "description": "WHERE — the physical project. Three-sided farmstead from 1884, 1h SW of Berlin. Wilhelmine origins, GDR additions.",
+      "parent": "root",
+      "children": ["buildings", "land", "construction", "agriculture_domain", "infrastructure"]
+    },
+    {
+      "id": "buildings",
+      "label": "Buildings",
+      "type": "category",
+      "description": "The built structures of the farmstead.",
+      "parent": "farm",
+      "children": ["farmhouse", "barn", "workshop", "stables", "secondary_structures"]
+    },
+    {
+      "id": "farmhouse",
+      "label": "Farmhouse",
+      "type": "place",
+      "description": "Living quarters, attic, cellar, three tiled stoves, five chimneys.",
+      "parent": "buildings",
+      "source": "Tomasz",
+      "tags": ["building", "residential"]
+    },
+    {
+      "id": "barn",
+      "label": "Barn",
+      "type": "place",
+      "description": "Spacious interior for craft, artistic, educational, cultural activities. Historical windows installed. Hayloft, former chicken coop.",
+      "parent": "buildings",
+      "source": "Tomasz, Ludwik",
+      "tags": ["building", "multipurpose"]
+    },
+    {
+      "id": "workshop",
+      "label": "Workshop",
+      "type": "place",
+      "description": "Cleaned and redesigned for novel uses. Smart technologies + old manual techniques.",
+      "parent": "buildings",
+      "source": "Tomasz",
+      "tags": ["building", "making"]
+    },
+    {
+      "id": "stables",
+      "label": "Stables",
+      "type": "place",
+      "description": "Former cowshed, horse stable, fodder kitchen. Major reconstruction and extension documented in Ludwik.",
+      "parent": "buildings",
+      "source": "Tomasz, Ludwik",
+      "tags": ["building", "renovation"]
+    },
+    {
+      "id": "secondary_structures",
+      "label": "Secondary Structures",
+      "type": "place",
+      "description": "GDR-era garage, former pigpen, small stalls and sheds (some torn down).",
+      "parent": "buildings",
+      "source": "Tomasz",
+      "tags": ["building", "history"]
+    },
+    {
+      "id": "land",
+      "label": "Land & Grounds",
+      "type": "category",
+      "description": "Fields, gardens, pastures, terrain.",
+      "parent": "farm",
+      "children": ["south_field", "garden", "pastures", "fruit_trees", "walnut_tree"]
+    },
+    {
+      "id": "south_field",
+      "label": "South Facing Field",
+      "type": "place",
+      "description": "Wooden deck fronting the field. Agricultural use.",
+      "parent": "land",
+      "source": "Tomasz"
+    },
+    {
+      "id": "garden",
+      "label": "Gardens",
+      "type": "place",
+      "description": "Garden behind the barn. Small horticultural experiments.",
+      "parent": "land",
+      "source": "Tomasz, Ludwik"
+    },
+    {
+      "id": "pastures",
+      "label": "Pastures",
+      "type": "place",
+      "description": "Grazing land, echoing the medieval commons tradition.",
+      "parent": "land",
+      "source": "Tomasz",
+      "links": ["commons"]
+    },
+    {
+      "id": "fruit_trees",
+      "label": "Fruit Trees",
+      "type": "place",
+      "description": "Existing fruit trees on the property.",
+      "parent": "land",
+      "source": "Tomasz"
+    },
+    {
+      "id": "walnut_tree",
+      "label": "Walnut Tree",
+      "type": "place",
+      "description": "Planting, nurturing and caring for a walnut tree — documented as a meditative, long-term act.",
+      "parent": "land",
+      "source": "Ludwik"
+    },
+    {
+      "id": "construction",
+      "label": "Renovation & Construction",
+      "type": "category",
+      "description": "The ongoing work of restoring and extending the farmstead.",
+      "parent": "farm",
+      "children": ["heritage", "eco_materials", "smart_tech", "stable_reconstruction"]
+    },
+    {
+      "id": "heritage",
+      "label": "Heritage Preservation",
+      "type": "concept",
+      "description": "Preserving Wilhelmine and GDR-era cultural heritage. Historical artifacts, timber-frame techniques.",
+      "parent": "construction",
+      "source": "Tomasz",
+      "tags": ["history", "culture", "craft"]
+    },
+    {
+      "id": "eco_materials",
+      "label": "Ecological Building Materials",
+      "type": "concept",
+      "description": "Implementing sustainable materials in renovation. Recycling of materials.",
+      "parent": "construction",
+      "source": "Ludwik",
+      "tags": ["ecology", "construction"]
+    },
+    {
+      "id": "smart_tech",
+      "label": "Smart Technologies",
+      "type": "concept",
+      "description": "Linking old manual techniques with new forms of production and technology.",
+      "parent": "construction",
+      "tags": ["technology", "innovation"]
+    },
+    {
+      "id": "stable_reconstruction",
+      "label": "Stable Building Reconstruction",
+      "type": "activity",
+      "description": "Major reconstruction and extension of the stable building — extensively documented in Ludwik.",
+      "parent": "construction",
+      "source": "Ludwik",
+      "tags": ["construction", "hands-on"]
+    },
+    {
+      "id": "agriculture_domain",
+      "label": "Agriculture",
+      "type": "category",
+      "description": "Farming activities on the property.",
+      "parent": "farm",
+      "children": ["organic_farming", "fruit_farming", "livestock", "horticulture"]
+    },
+    {
+      "id": "organic_farming",
+      "label": "Organic Farming",
+      "type": "activity",
+      "description": "Ecological agriculture as both livelihood and learning opportunity.",
+      "parent": "agriculture_domain",
+      "tags": ["farming", "ecology"]
+    },
+    {
+      "id": "fruit_farming",
+      "label": "Fruit & Berries",
+      "type": "activity",
+      "description": "Fruit growing, berries farming. Basis for produce (jams, juices).",
+      "parent": "agriculture_domain",
+      "source": "Ludwik",
+      "tags": ["farming", "food"],
+      "links": ["crafts_making"]
+    },
+    {
+      "id": "livestock",
+      "label": "Livestock",
+      "type": "activity",
+      "description": "Sheep farming mentioned. Ecological livestock farming as a project profile.",
+      "parent": "agriculture_domain",
+      "tags": ["farming", "animals"]
+    },
+    {
+      "id": "horticulture",
+      "label": "Horticultural Experiments",
+      "type": "activity",
+      "description": "Small-scale gardening experiments documented in Ludwik.",
+      "parent": "agriculture_domain",
+      "source": "Ludwik",
+      "tags": ["farming", "experimental"]
+    },
+    {
+      "id": "infrastructure",
+      "label": "Infrastructure",
+      "type": "category",
+      "description": "Utilities and systems supporting the farm.",
+      "parent": "farm",
+      "children": ["water_supply", "heat_timber", "firewood", "guttering"]
+    },
+    {
+      "id": "water_supply",
+      "label": "Water Supply",
+      "type": "system",
+      "parent": "infrastructure",
+      "source": "Tomasz"
+    },
+    {
+      "id": "heat_timber",
+      "label": "Heat Generation & Timber",
+      "type": "system",
+      "description": "Heating systems and timber industry on the farm.",
+      "parent": "infrastructure",
+      "source": "Ludwik",
+      "tags": ["energy", "sustainability"]
+    },
+    {
+      "id": "firewood",
+      "label": "Firewood Supplies",
+      "type": "system",
+      "parent": "infrastructure",
+      "source": "Tomasz"
+    },
+    {
+      "id": "guttering",
+      "label": "Guttering & Downspouts",
+      "type": "system",
+      "description": "Guttering and downspouts for the barn — practical infrastructure work.",
+      "parent": "infrastructure",
+      "source": "Ludwik"
+    },
+    {
+      "id": "community",
+      "label": "Community & People",
+      "type": "domain",
+      "description": "WHO — the human dimension of the project.",
+      "parent": "root",
+      "children": ["intergenerational", "village_relations", "diverse_professionals", "youth", "polish_exchange", "conviviality"]
+    },
+    {
+      "id": "intergenerational",
+      "label": "Intergenerational Living",
+      "type": "concept",
+      "description": "Elders, adults, youth living together. Reduces elder care costs, provides role models.",
+      "parent": "community",
+      "tags": ["social", "care", "inclusion"]
+    },
+    {
+      "id": "village_relations",
+      "label": "Village Relations & Mutual Aid",
+      "type": "concept",
+      "description": "Neighborly structures: farmer helps with tractor, gets field access; firewood exchanged for services.",
+      "parent": "community",
+      "tags": ["local", "reciprocity"]
+    },
+    {
+      "id": "diverse_professionals",
+      "label": "Diverse Professionals Together",
+      "type": "concept",
+      "description": "Roofers and philosophers, carpenters and educators, electricians and doctors.",
+      "parent": "community",
+      "tags": ["diversity", "skills"],
+      "links": ["meaningful_labor"]
+    },
+    {
+      "id": "youth",
+      "label": "Youth & Adolescents",
+      "type": "concept",
+      "description": "Ragnar as prototype — young man developing new motivation for learning, working, living. Male adolescents at risk as key demographic.",
+      "parent": "community",
+      "source": "Ragnar",
+      "tags": ["education", "development"],
+      "links": ["youth_journeying", "self_directed"]
+    },
+    {
+      "id": "polish_exchange",
+      "label": "Polish-German Cultural Exchange",
+      "type": "concept",
+      "description": "Rooted in Jaczewski's legacy, Krakow connections, Polish literature and language. International scouting ideals.",
+      "parent": "community",
+      "references": ["Toczyski et al. 2022"],
+      "source": "Tomasz, Ludwik",
+      "tags": ["culture", "international", "history"]
+    },
+    {
+      "id": "conviviality",
+      "label": "Life & Conviviality",
+      "type": "concept",
+      "description": "The social texture of daily life in the think tank — gatherings, meals, shared time.",
+      "parent": "community",
+      "source": "Ludwik",
+      "tags": ["social", "wellbeing"]
+    },
+    {
+      "id": "creative",
+      "label": "Creative & Cultural Expression",
+      "type": "domain",
+      "description": "HOW the project is expressed and documented.",
+      "parent": "root",
+      "children": ["storytelling", "crafts_making", "music", "design_objects", "media"]
+    },
+    {
+      "id": "storytelling",
+      "label": "Storytelling & Documentation",
+      "type": "activity",
+      "description": "Three book volumes, academic article, YouTube channel. Character prototypes (Tomasz, Ludwik, Ragnar) as narrative devices.",
+      "parent": "creative",
+      "tags": ["narrative", "publishing"]
+    },
+    {
+      "id": "crafts_making",
+      "label": "Crafts & Making",
+      "type": "activity",
+      "description": "Furniture making/restoring, jam and juice production, textile design. The jam label as creative act.",
+      "parent": "creative",
+      "tags": ["craft", "hands-on", "food"],
+      "links": ["meaningful_labor", "fruit_farming"]
+    },
+    {
+      "id": "music",
+      "label": "Music",
+      "type": "activity",
+      "description": "Key role of music in the project — documented in Ludwik.",
+      "parent": "creative",
+      "source": "Ludwik",
+      "tags": ["art", "culture"]
+    },
+    {
+      "id": "design_objects",
+      "label": "Designs, Objects & Play",
+      "type": "activity",
+      "description": "Creative design work, object-making, playful experimentation.",
+      "parent": "creative",
+      "source": "Ludwik",
+      "tags": ["design", "creativity"]
+    },
+    {
+      "id": "media",
+      "label": "Media & Web",
+      "type": "activity",
+      "description": "Photography (700+ photos across books), YouTube channel, future website. Visual documentation as core practice.",
+      "parent": "creative",
+      "tags": ["photography", "digital", "web"]
+    },
+    {
+      "id": "commercial",
+      "label": "Commercial Dimensions",
+      "type": "domain",
+      "description": "HOW the project sustains itself economically (future development).",
+      "parent": "root",
+      "children": ["guest_hosting", "farm_store", "workshops_events", "everyday_economy", "vacant_properties"]
+    },
+    {
+      "id": "guest_hosting",
+      "label": "Guest Hosting",
+      "type": "concept",
+      "description": "Future booking page for hosting guests at the farm. Airbnb-style or independent.",
+      "parent": "commercial",
+      "tags": ["hospitality", "income", "future"]
+    },
+    {
+      "id": "farm_store",
+      "label": "Farm Store / Produce Sales",
+      "type": "concept",
+      "description": "Selling produce, crafts, goods. Shopify or independent. Jams, juices, organic produce.",
+      "parent": "commercial",
+      "tags": ["retail", "food", "future"],
+      "links": ["crafts_making", "fruit_farming"]
+    },
+    {
+      "id": "workshops_events",
+      "label": "Workshops & Events",
+      "type": "concept",
+      "description": "Seminars, cultural events, educational workshops. Already started (first seminars documented in Tomasz).",
+      "parent": "commercial",
+      "source": "Tomasz",
+      "tags": ["education", "events", "income"]
+    },
+    {
+      "id": "everyday_economy",
+      "label": "Everyday Economy",
+      "type": "concept",
+      "description": "Day-to-day economic management of the project. Practical sustainability.",
+      "parent": "commercial",
+      "source": "Ludwik",
+      "tags": ["economics", "practical"]
+    },
+    {
+      "id": "vacant_properties",
+      "label": "Expansion — Vacant Properties",
+      "type": "concept",
+      "description": "Vision of thousands of similar projects using abandoned properties across East Germany and beyond.",
+      "parent": "commercial",
+      "source": "Ludwik",
+      "tags": ["vision", "scaling", "future"],
+      "links": ["rural_revitalization"]
+    }
+  ]
+}

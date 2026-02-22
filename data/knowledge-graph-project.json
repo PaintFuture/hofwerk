@@ -1,0 +1,404 @@
+{
+  "meta": {
+    "title": "Hofwerk — Project Knowledge Graph",
+    "version": "0.2",
+    "description": "Physical project, timeline, people, places. Specific to the Anhalt farmstead."
+  },
+  "nodes": [
+    {
+      "id": "project",
+      "label": "The Hofwerk Project",
+      "type": "root",
+      "description": "Three-sided farmstead (Dreiseitenhof) in Anhalt, East Germany. Built 1884 (Wilhelmine period), GDR additions. Acquired November 30, 2020. 1h SW of Berlin by train + bike.",
+      "children": ["people", "buildings", "land", "infrastructure", "activities", "timeline", "publications", "similar_projects"]
+    },
+
+    {
+      "id": "people",
+      "label": "People",
+      "type": "domain",
+      "parent": "project",
+      "children": ["joachim", "philipp", "family", "tomasz_char", "ludwik_char", "ragnar_char", "pawel", "andrzej", "cooperation_partners"]
+    },
+    {
+      "id": "joachim",
+      "label": "Joachim Broecher",
+      "type": "person",
+      "description": "Professor, University of Flensburg. Dept. of Social and Emotional Learning. Former teacher and school principal (20 years). Scientific documentation and concept development.",
+      "parent": "people",
+      "url": "https://broecher-research.de/"
+    },
+    {
+      "id": "philipp",
+      "label": "Philipp Broecher",
+      "type": "person",
+      "description": "Project lead. Manual labor, photo editing. Based in Lucerne, Switzerland.",
+      "parent": "people"
+    },
+    {
+      "id": "family",
+      "label": "Broecher Family",
+      "type": "person",
+      "description": "Family-funded project. Karin-Anna Jung-Broecher (interior/exterior design, landscaping), Jan Broecher (Berlin).",
+      "parent": "people"
+    },
+    {
+      "id": "tomasz_char",
+      "label": "Tomasz (Character Prototype)",
+      "type": "character",
+      "description": "Young man from the Beskids/Carpathians. Lemko ethnic minority. Homeschooled by Andrzej. Practical, nature-oriented. Now working with Paweł in South Tyrol on historic mountain farms.",
+      "parent": "people",
+      "source": "tomasz"
+    },
+    {
+      "id": "ludwik_char",
+      "label": "Ludwik (Character Prototype)",
+      "type": "character",
+      "description": "Young pedagogue from Sopot, Poland. Lithuanian noble ancestry. Gifted pianist (Chopin, Liszt, Schubert). Left Polish school system. Now gives piano lessons in Berlin.",
+      "parent": "people",
+      "source": "ludwik"
+    },
+    {
+      "id": "ragnar_char",
+      "label": "Ragnar (Character Prototype)",
+      "type": "character",
+      "description": "Composite character. 25 years old, from Hoyerswerda area, Saxony. Left school early, no certificate. Works collecting scrap metal. Physically strong, practically skilled. Met in a DIY store.",
+      "parent": "people",
+      "source": "ragnar",
+      "quotes": [
+        {"text": "Ragnar is for me what Emile was for Jean-Jacques Rousseau. At the same time, Ragnar is quite real, because he is made up of facets of several young men with whom I have actually worked.", "source": "ragnar"}
+      ]
+    },
+    {
+      "id": "pawel",
+      "label": "Paweł",
+      "type": "character",
+      "description": "Tomasz's uncle. Highly skilled carpenter and roofer. Itinerant craftsman (Switzerland, Austria, South Tyrol). Built roofs, enhanced cultural life through Polish literature discussions.",
+      "parent": "people",
+      "source": "tomasz"
+    },
+    {
+      "id": "andrzej",
+      "label": "Andrzej Jaczewski",
+      "type": "person",
+      "description": "Centenarian. Pediatrician, teacher, professor (Warsaw, Krakow). Pioneer of German-Polish educational exchange. Homeschooled Tomasz. Died October 2021. The grand presence behind the project.",
+      "parent": "people",
+      "references": ["Jaczewski 2018", "Jaczewski 2019", "Toczyski et al. 2022"]
+    },
+    {
+      "id": "cooperation_partners",
+      "label": "Cooperation Partners",
+      "type": "category",
+      "description": "Local architect Uwe Kelling (Leitzkau), energy consultant André König (Dessau), farmer Jörn Friedrich (Dobritz), and ~20 local companies and craftsmen.",
+      "parent": "people",
+      "source": "ludwik"
+    },
+
+    {
+      "id": "buildings",
+      "label": "Buildings",
+      "type": "domain",
+      "parent": "project",
+      "children": ["farmhouse", "barn", "workshop", "stables", "secondary"]
+    },
+    {
+      "id": "farmhouse",
+      "label": "Farmhouse",
+      "type": "building",
+      "description": "Living quarters. Cellar (sand under parts). 1884 coffered doors. Three tiled stoves (yellow, etc.). Five chimneys. GDR-era bathroom addition. Small kitchen with hotplates.",
+      "parent": "buildings"
+    },
+    {
+      "id": "barn",
+      "label": "Barn",
+      "type": "building",
+      "description": "Spacious interior. Former chicken coop. Hayloft. Historical Wilhelmine windows installed. Hosts seminars, discussions, cultural events. Climbing and gymnastics space.",
+      "parent": "buildings"
+    },
+    {
+      "id": "workshop",
+      "label": "Workshop",
+      "type": "building",
+      "description": "Cleaned of decades of debris. Anvil and workbench retained. New sandwich panel roof (built by Paweł). Smart technologies + old manual techniques.",
+      "parent": "buildings"
+    },
+    {
+      "id": "stables",
+      "label": "Stable Building",
+      "type": "building",
+      "description": "Major reconstruction and extension. Plans: commercial space (street side), accessible apartment, kitchen/living room, four guest rooms with bathrooms upstairs. Building permit granted.",
+      "parent": "buildings",
+      "source": "tomasz, ludwik"
+    },
+    {
+      "id": "secondary",
+      "label": "Secondary Structures",
+      "type": "building",
+      "description": "GDR-era garage, former pigpen (torn down), small stalls and sheds (some demolished). Asbestos roof removed by specialists.",
+      "parent": "buildings"
+    },
+
+    {
+      "id": "land",
+      "label": "Land & Grounds",
+      "type": "domain",
+      "parent": "project",
+      "children": ["farmyard", "south_field", "garden", "pastures", "fruit_trees", "walnut_tree", "benjes_hedge"]
+    },
+    {
+      "id": "farmyard",
+      "label": "Farmyard (Innenhof)",
+      "type": "place",
+      "description": "Central courtyard. Fieldstone paving under 100+ years of soil. Sewage pipes excavated and replaced. Cherry tree. Lavender planter with butterflies.",
+      "parent": "land"
+    },
+    {
+      "id": "south_field",
+      "label": "South Facing Field",
+      "type": "place",
+      "description": "Wooden deck built by Philipp and Tomasz. Red fir oil weatherproofing. For reading, music, language learning, cloud-watching. Winter brazier.",
+      "parent": "land"
+    },
+    {
+      "id": "garden",
+      "label": "Gardens",
+      "type": "place",
+      "description": "Behind the barn. Wolf habitat. Horticultural experiments. Straw from renovation used as path covering.",
+      "parent": "land"
+    },
+    {
+      "id": "pastures",
+      "label": "Pastures",
+      "type": "place",
+      "description": "Currently fallow — supporting biodiversity. Insects, birds, small creatures. Future potential for livestock.",
+      "parent": "land"
+    },
+    {
+      "id": "fruit_trees",
+      "label": "Fruit Trees",
+      "type": "place",
+      "description": "Cherry, plum, apple, pear, peach trees. Surplus shared with neighbors. Ecological jam, fruit cake, juice production started.",
+      "parent": "land"
+    },
+    {
+      "id": "walnut_tree",
+      "label": "Walnut Tree",
+      "type": "place",
+      "description": "Planted by Philipp. Gnawed by hare/deer. Protected with reinforcing fabric and stakes. Nursed back to health. A meditative, long-term act of care.",
+      "parent": "land",
+      "source": "ludwik"
+    },
+    {
+      "id": "benjes_hedge",
+      "label": "Benjes Hedge",
+      "type": "place",
+      "description": "Dead hedge made from branches and cuttings. Habitat for wildlife. Ongoing maintenance.",
+      "parent": "land",
+      "source": "tomasz"
+    },
+
+    {
+      "id": "infrastructure",
+      "label": "Infrastructure",
+      "type": "domain",
+      "parent": "project",
+      "children": ["water", "heating", "electrical", "sewage", "energy_future"]
+    },
+    {
+      "id": "water",
+      "label": "Water Supply",
+      "type": "system",
+      "description": "Broken pipes in cellar at acquisition. Copper lines replaced. No lead pipes (checked). Rainwater collection planned. Well with electric pump.",
+      "parent": "infrastructure"
+    },
+    {
+      "id": "heating",
+      "label": "Heating — Tiled Stoves & Firewood",
+      "type": "system",
+      "description": "Three tiled stoves (6-8 hours to warm). Firewood from property. First winter: minus 5°C indoors, sleeping in wool hats. Heat generation and timber industry.",
+      "parent": "infrastructure"
+    },
+    {
+      "id": "electrical",
+      "label": "Electrical",
+      "type": "system",
+      "description": "Partial grid working at acquisition. Elektro Runge (Schweinitz) for installation work.",
+      "parent": "infrastructure"
+    },
+    {
+      "id": "sewage",
+      "label": "Sewage",
+      "type": "system",
+      "description": "Old pipes excavated and replaced (May 2023). Stable building connected to sewer. Cesspool from pre-sewer era still present.",
+      "parent": "infrastructure"
+    },
+    {
+      "id": "energy_future",
+      "label": "Future Energy",
+      "type": "system",
+      "description": "Heat pump, solar cells, small wind turbine under consideration. Energy consulting by André König.",
+      "parent": "infrastructure"
+    },
+
+    {
+      "id": "activities",
+      "label": "Activities & Culture",
+      "type": "domain",
+      "parent": "project",
+      "children": ["renovation_work", "agriculture_activity", "cultural_life", "polish_connection", "seminars"]
+    },
+    {
+      "id": "renovation_work",
+      "label": "Renovation & Construction",
+      "type": "activity",
+      "description": "Ongoing since Nov 2020. Roofing, guttering, stable reconstruction, debris removal, asbestos disposal, brick work, plastering. Heritage preservation alongside modernization.",
+      "parent": "activities"
+    },
+    {
+      "id": "agriculture_activity",
+      "label": "Agriculture & Food",
+      "type": "activity",
+      "description": "Fruit harvesting, jam/juice production, garden experiments, tree care, scything. Surplus shared with neighbors.",
+      "parent": "activities"
+    },
+    {
+      "id": "cultural_life",
+      "label": "Cultural Life",
+      "type": "activity",
+      "description": "Music (heroic film scores, Chopin, classical), furniture making/restoring, designs and objects, conviviality by the tiled stove with Belgian winter beer.",
+      "parent": "activities"
+    },
+    {
+      "id": "polish_connection",
+      "label": "Polish-German Connection",
+      "type": "activity",
+      "description": "Polish literature central (Tokarczuk, Huelle, Gombrowicz, Reymont, Brandys, Kuczok, Schulz, Sienkiewicz). Language learning. Emotional and social geographies. Cold War educational exchange legacy.",
+      "parent": "activities",
+      "quotes": [
+        {"text": "Polish literature moved more and more into focus on our farm, so that our first cultural life unfolded around it.", "source": "tomasz"}
+      ]
+    },
+    {
+      "id": "seminars",
+      "label": "Seminars & Think Tank",
+      "type": "activity",
+      "description": "Informal seminars in the barn. Focus on biographies, generations, communities of the future. University classes streamed during Covid. Polish language courses.",
+      "parent": "activities"
+    },
+
+    {
+      "id": "timeline",
+      "label": "Timeline",
+      "type": "domain",
+      "description": "Key milestones in the project's development.",
+      "parent": "project",
+      "children": ["t_2020", "t_2021", "t_2022", "t_2023", "t_2024"]
+    },
+    {
+      "id": "t_2020",
+      "label": "2020 — Acquisition",
+      "type": "milestone",
+      "description": "Late autumn: farmstead purchased. Keys handed over November 30, 2020. First winter: camping in rooms with tiled stoves, sleeping bags, foam mats.",
+      "parent": "timeline"
+    },
+    {
+      "id": "t_2021",
+      "label": "2021 — First Steps",
+      "type": "milestone",
+      "description": "Basic cleanup, debris removal, improvised living. First texts published. Tomasz arrives from Poland. Water pipes fixed. Ant nest dealt with.",
+      "parent": "timeline"
+    },
+    {
+      "id": "t_2022",
+      "label": "2022 — Building Momentum",
+      "type": "milestone",
+      "description": "Paweł arrives — new roofs for workshop and bathroom. Wooden deck built. Furniture restored. First seminars. Tomasz Vol. 1 documents progress to May 2022.",
+      "parent": "timeline"
+    },
+    {
+      "id": "t_2023",
+      "label": "2023 — Going Public",
+      "type": "milestone",
+      "description": "Frontiers in Sociology article published (May). Ludwik Vol. 2 published. Stable building gutted and reconstruction begins. Sewage pipes replaced. Building permit granted. Ragnar enters the scene.",
+      "parent": "timeline"
+    },
+    {
+      "id": "t_2024",
+      "label": "2024 — Expansion",
+      "type": "milestone",
+      "description": "Ragnar Vol. 3 published (August, e-paper). Stable reconstruction continues. Monthly journal May 2023 – August 2024 documented.",
+      "parent": "timeline"
+    },
+
+    {
+      "id": "publications",
+      "label": "Publications",
+      "type": "domain",
+      "parent": "project",
+      "children": ["pub_article", "pub_tomasz", "pub_ludwik", "pub_ragnar", "pub_degruyter", "pub_youtube"]
+    },
+    {
+      "id": "pub_article",
+      "label": "Frontiers in Sociology Article",
+      "type": "publication",
+      "description": "Broecher & Painter (2023). Peer-reviewed. Open access.",
+      "parent": "publications",
+      "url": "https://doi.org/10.3389/fsoc.2023.1164293"
+    },
+    {
+      "id": "pub_tomasz",
+      "label": "Tomasz — Vol. 1",
+      "type": "publication",
+      "description": "436 illustrations. Print and e-book. Available in EN, DE, IT, PL.",
+      "parent": "publications",
+      "isbn": "978-3-7412-9453-2",
+      "url_de": "https://buchshop.bod.de/tomasz-oder-ueber-das-lernen-arbeiten-und-leben-der-zukunft-joachim-broecher-9783754347911",
+      "url_en": "https://buchshop.bod.de/ludwik-notes-on-future-ways-of-learning-working-and-living-joachim-broecher-9783757808129"
+    },
+    {
+      "id": "pub_ludwik",
+      "label": "Ludwik — Vol. 2",
+      "type": "publication",
+      "description": "~280 illustrations. Print and e-book. Available in EN, DE, PL.",
+      "parent": "publications",
+      "isbn": "978-3-7578-0812-9",
+      "url_en": "https://buchshop.bod.de/ludwik-notes-on-future-ways-of-learning-working-and-living-joachim-broecher-9783757808129",
+      "url_de": "https://buchshop.bod.de/ludwik-oder-ueber-das-lernen-arbeiten-und-leben-der-zukunft-joachim-broecher-9783756821334"
+    },
+    {
+      "id": "pub_ragnar",
+      "label": "Ragnar — Vol. 3",
+      "type": "publication",
+      "description": "~400 photos. Digital only (e-paper on ResearchGate). Published August 30, 2024.",
+      "parent": "publications",
+      "format": "e-paper"
+    },
+    {
+      "id": "pub_degruyter",
+      "label": "De Gruyter Volume",
+      "type": "publication",
+      "description": "Transformative Community-Projekte. 192 pages, 100 color illustrations. Academic publisher. December 2025.",
+      "parent": "publications",
+      "doi": "10.1515/9783839448618",
+      "isbn": "978-3-8394-4861-8"
+    },
+    {
+      "id": "pub_youtube",
+      "label": "YouTube Channel",
+      "type": "publication",
+      "description": "Film recordings documenting changes to site and buildings over time.",
+      "parent": "publications",
+      "url": "https://www.youtube.com/@otherformsoflearningworkin5830/featured"
+    },
+
+    {
+      "id": "similar_projects",
+      "label": "Similar Projects (Research)",
+      "type": "domain",
+      "description": "Projects in the region or with similar philosophy. Not yet cooperating — for research and inspiration only.",
+      "parent": "project",
+      "status": "draft_not_published",
+      "children": []
+    }
+  ]
+}

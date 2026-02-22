@@ -1,0 +1,457 @@
+{
+  "meta": {
+    "title": "Transformative Community Projects — Conceptual Knowledge Graph",
+    "version": "0.2",
+    "description": "Thematic and theoretical structure. Reusable across projects.",
+    "sources": [
+      {"id": "article", "cite": "Broecher & Painter (2023) Frontiers in Sociology", "doi": "10.3389/fsoc.2023.1164293"},
+      {"id": "tomasz", "cite": "Broecher (2023a) Tomasz — Vol. 1", "isbn": "978-3-7412-9453-2"},
+      {"id": "ludwik", "cite": "Broecher (2023b) Ludwik — Vol. 2", "isbn": "978-3-7578-0812-9"},
+      {"id": "ragnar", "cite": "Broecher (2024) Ragnar — Vol. 3", "format": "e-paper, ResearchGate"},
+      {"id": "degruyter", "cite": "Broecher (2025) Transformative Community-Projekte, De Gruyter", "doi": "10.1515/9783839448618"}
+    ]
+  },
+  "nodes": [
+    {
+      "id": "root",
+      "label": "Transformative Community Projects",
+      "type": "root",
+      "description": "An integrated model for sustainable forms of learning, working, and living. Not a single reform but the interaction of multiple variables in an overall context.",
+      "children": ["diagnosis", "philosophy", "pillars", "transformation", "safeguards"]
+    },
+
+    {
+      "id": "diagnosis",
+      "label": "Diagnosis — What's Wrong",
+      "type": "domain",
+      "description": "Analysis of contemporary society's structural problems that motivate the project.",
+      "parent": "root",
+      "children": ["alienation", "school_crisis", "fragmentation", "control_society", "skilled_worker_shortage"]
+    },
+    {
+      "id": "alienation",
+      "label": "Alienation in Work Life",
+      "type": "concept",
+      "description": "Functionalized work yields experiences lacking professional self-realization. Competition, indifference, and alienation frame the work-life experience.",
+      "parent": "diagnosis",
+      "references": ["Sayers 2011", "Shantz et al. 2014/2015", "Bousquet 2023", "Marcuse 2014", "Kalekin-Fishman & Langman 2015"],
+      "quotes": [
+        {"text": "The functionalized world of work yields human experiences that often lack professional self-realization.", "source": "article"},
+        {"text": "Many would rather guard the Wall of Ice in Game of Thrones, or be part of Winterfell, than have to look for a place in our society, which is often experienced as indifferent and functionalist.", "source": "ludwik"}
+      ],
+      "tags": ["sociology", "critique", "work"]
+    },
+    {
+      "id": "school_crisis",
+      "label": "Crisis of the School System",
+      "type": "concept",
+      "description": "Increasing numbers of youth not fitting into schools. Male students at high risk. Declining attractiveness of teaching profession. Schools as places of mere safekeeping.",
+      "parent": "diagnosis",
+      "references": ["Hascher & Hagenauer 2010", "Harber 2002", "Hascher & Hadjar 2018", "Havik & Ingul 2021"],
+      "quotes": [
+        {"text": "More and more children and young people are not fitting into the school system and reacting with behaviors that are considered problematic, and a growing group is not even learning the basics there.", "source": "ludwik"},
+        {"text": "It is not a matter of developing ever more precise diagnostic instruments and pedagogical interventions... what matters is that they grow up differently and better, right from the start.", "source": "ludwik"}
+      ],
+      "tags": ["education", "youth", "crisis"]
+    },
+    {
+      "id": "fragmentation",
+      "label": "Social Fragmentation",
+      "type": "concept",
+      "description": "Disintegration of families, unconnected coexistence of communities, lives in escapist virtual worlds. Loss of cohesion, meaning, significance.",
+      "parent": "diagnosis",
+      "quotes": [
+        {"text": "There is no narrative that would effectively hold together this society, which is now primarily functionalist. There is no meaningful narrative, nothing that motivates us as a society as a whole.", "source": "ragnar"}
+      ],
+      "tags": ["sociology", "community", "meaning"]
+    },
+    {
+      "id": "control_society",
+      "label": "Society of Control (Deleuze)",
+      "type": "concept",
+      "description": "Deleuze's analysis: control systems play a dominant role, individual freedom diminishes. Manifests in educational institutions. Central framing across all three books.",
+      "parent": "diagnosis",
+      "references": ["Deleuze 1992", "Marcuse 2014"],
+      "tags": ["philosophy", "critical_theory", "governance"]
+    },
+    {
+      "id": "skilled_worker_shortage",
+      "label": "Skilled Worker Shortage",
+      "type": "concept",
+      "description": "Shortage in geriatric care, teaching, trades. Lateral entrants without preparation. Unsustainable cycle.",
+      "parent": "diagnosis",
+      "tags": ["labor", "crisis", "policy"]
+    },
+
+    {
+      "id": "philosophy",
+      "label": "Philosophical Foundations",
+      "type": "domain",
+      "description": "The intellectual traditions and thinkers informing the project.",
+      "parent": "root",
+      "children": ["communitarianism", "odonohue", "fromm_being", "strong_democracy", "person_centered", "resonance", "social_sculpture"]
+    },
+    {
+      "id": "communitarianism",
+      "label": "Communitarianism",
+      "type": "concept",
+      "description": "Social embedding without collectivist coercion. Decline of values and solidarity under neoliberalism. Preserves individual freedom while emphasizing social community.",
+      "parent": "philosophy",
+      "references": ["Taylor 1989/2012", "Sandel 2008", "Walzer 2009", "MacIntyre 2014"],
+      "tags": ["philosophy", "ethics", "community"]
+    },
+    {
+      "id": "odonohue",
+      "label": "O'Donohue — Belonging & Thresholds",
+      "type": "concept",
+      "description": "Irish philosopher. Belonging as social and emotional connectedness. Thresholds as biographical/spiritual transitions. Appreciation of inner richness each person brings.",
+      "parent": "philosophy",
+      "references": ["O'Donohue 1997 (Anam Cara)", "O'Donohue 1998 (Eternal Echoes)"],
+      "quotes": [
+        {"text": "In the writings of the Irish philosopher John O'Donohue, thresholds hold the special meaning of consciously entering and exiting from something. They can also denote certain biographical or spiritual developments.", "source": "supplementary"}
+      ],
+      "tags": ["philosophy", "spirituality", "belonging"]
+    },
+    {
+      "id": "fromm_being",
+      "label": "Fromm — Being vs. Having",
+      "type": "concept",
+      "description": "Being makes you happier than having. Questioning fixation on material accumulation under capitalism.",
+      "parent": "philosophy",
+      "references": ["Fromm 2013 (To Have or To Be?, 1976)"],
+      "tags": ["philosophy", "values", "capitalism"]
+    },
+    {
+      "id": "strong_democracy",
+      "label": "Strong Democracy (Barber)",
+      "type": "concept",
+      "description": "Participatory politics for a new age. Active citizenship beyond representative democracy.",
+      "parent": "philosophy",
+      "references": ["Barber 1989/2009"],
+      "tags": ["politics", "democracy"]
+    },
+    {
+      "id": "person_centered",
+      "label": "Person-Centered Philosophy",
+      "type": "concept",
+      "description": "Rogers' person-centered approach. Constructive shaping of human relationships. Genuine inclusion of each person.",
+      "parent": "philosophy",
+      "references": ["Rogers 1969/1970"],
+      "tags": ["psychology", "education", "relationships"]
+    },
+    {
+      "id": "resonance",
+      "label": "Resonance (Rosa)",
+      "type": "concept",
+      "description": "Significant resonance experience as fundamental for human development. Connection vs. alienation.",
+      "parent": "philosophy",
+      "references": ["Rosa 2019"],
+      "tags": ["sociology", "wellbeing"]
+    },
+    {
+      "id": "social_sculpture",
+      "label": "Social Sculpture (Beuys)",
+      "type": "concept",
+      "description": "Joseph Beuys' concept — society itself as an artwork shaped by everyone. Referenced in De Gruyter volume.",
+      "parent": "philosophy",
+      "references": ["De Gruyter 2025, Ch. 'Soziale Plastik im Sinne von Joseph Beuys'"],
+      "tags": ["art", "philosophy", "participation"]
+    },
+
+    {
+      "id": "pillars",
+      "label": "Pillars — The Model",
+      "type": "domain",
+      "description": "The five key elements of the transformative community project model.",
+      "parent": "root",
+      "children": ["civil_society", "work_income", "learning", "entrepreneurship", "community_building"]
+    },
+    {
+      "id": "civil_society",
+      "label": "Active Civil Society",
+      "type": "pillar",
+      "description": "Citizens taking social, economic, and educational responsibility. Not waiting for state support. The post-institutional era.",
+      "parent": "pillars",
+      "references": ["Liebert & Trenz 2009", "Wright 2010", "Pérez-Díaz 2014", "Żuk & Żuk 2022"],
+      "quotes": [
+        {"text": "We should now usher in the post-institutional era. The state will not fix it alone, nor should it.", "source": "ludwik"},
+        {"text": "We are not waiting for state support and financing, but we are doing it from our own resources.", "source": "ludwik"}
+      ],
+      "tags": ["politics", "governance", "agency"]
+    },
+    {
+      "id": "work_income",
+      "label": "Work, Income & Work-Life Balance",
+      "type": "pillar",
+      "description": "Rethinking labor. Manual and intellectual work equally valued. Deceleration. Self-determination.",
+      "parent": "pillars",
+      "children": ["ubi", "meaningful_labor", "deceleration"],
+      "tags": ["economics", "wellbeing"]
+    },
+    {
+      "id": "ubi",
+      "label": "Unconditional Basic Income",
+      "type": "concept",
+      "description": "Not redistribution from middle to bottom, but incentive for entrepreneurial activity and social responsibility. Dismantles welfare bureaucracy. Frees tax money for projects.",
+      "parent": "work_income",
+      "references": ["McKay 2001", "Pateman 2004", "Standing 2004", "Van Parijs 2013", "Torry 2019", "Beck et al. 2015", "Yun et al. 2019"],
+      "quotes": [
+        {"text": "It can never be the case that a certain social group, which is usually active in the hamster wheel of 9-5 jobs, generates the basic income for another social group. If so, then everyone gets it.", "source": "ludwik"}
+      ],
+      "tags": ["economics", "policy", "UBI"]
+    },
+    {
+      "id": "meaningful_labor",
+      "label": "Meaningful Labor",
+      "type": "concept",
+      "description": "Roofers and philosophers, carpenters and educators working side by side. Manual and practical work equally valued alongside intellectual work. Craftsmanship rediscovered.",
+      "parent": "work_income",
+      "references": ["Sennett 2009 (The Craftsman)", "Patchett 2017"],
+      "quotes": [
+        {"text": "Those were wonderful days, when the value of practical, hands-on work became impressively visible and tangible.", "source": "tomasz"}
+      ],
+      "tags": ["craftsmanship", "dignity", "diversity"]
+    },
+    {
+      "id": "deceleration",
+      "label": "Deceleration & Slow Living",
+      "type": "concept",
+      "description": "Reduced mobility, more time for each other, healthier pace. Action and contemplation in balance.",
+      "parent": "work_income",
+      "references": ["Tokarczuk 2017", "Hodgkinson 2005/2007", "Thoreau 2016", "Bowers 2007"],
+      "quotes": [
+        {"text": "But there should also be ease, not just work and no play. Reading popular fiction is part of it; so is listening to music on your headphones, lounging on the Wooden Deck and just closing our eyes or watching the clouds go by.", "source": "tomasz"}
+      ],
+      "tags": ["wellbeing", "lifestyle", "contemplation"]
+    },
+    {
+      "id": "learning",
+      "label": "Learning & Education",
+      "type": "pillar",
+      "description": "Self-directed, community-oriented learning as alternative to institutional schooling.",
+      "parent": "pillars",
+      "children": ["self_directed_education", "experiential", "community_learning", "youth_journeying", "community_leadership"],
+      "tags": ["education"]
+    },
+    {
+      "id": "self_directed_education",
+      "label": "Self-Designed Compulsory Education",
+      "type": "concept",
+      "description": "Transform compulsory school attendance into self-directed mandatory education. Grades and certificates replaced by university entrance exams. Thousands of extracurricular projects needed.",
+      "parent": "learning",
+      "references": ["Krishnamurti 2007", "Neill 1960", "Illich 1970", "Goodman 1960"],
+      "quotes": [
+        {"text": "Transforming compulsory school attendance into self-directed mandatory education would spur society enormously by opening the door to a new kind of social, economic, and cultural development.", "source": "tomasz"}
+      ],
+      "tags": ["education", "policy", "freedom"]
+    },
+    {
+      "id": "experiential",
+      "label": "Experiential Education",
+      "type": "concept",
+      "description": "Learning by doing. Dewey, Hahn, Weikart's HighScope model. Action-oriented, nature-embedded. The farm as classroom.",
+      "parent": "learning",
+      "references": ["Broecher 2015", "Sennett 2009", "Louv 2011"],
+      "quotes": [
+        {"text": "If I have seen with my own eyes and experienced first-hand anywhere in the world what an activity- and project-oriented, creativity-driven and innovative, holistic approach to education should be, this was it.", "source": "tomasz", "context": "About HighScope Summer Camp, Michigan"}
+      ],
+      "tags": ["pedagogy", "hands-on", "nature"]
+    },
+    {
+      "id": "community_learning",
+      "label": "Community-Oriented Learning",
+      "type": "concept",
+      "description": "Intergenerational learning. Diverse role models, especially male presence. Cooperative skill-building. Children grow up with multiple adult caregivers.",
+      "parent": "learning",
+      "references": ["Broecher, Davis & Painter 2017", "Schmidt-Hertha et al. 2014"],
+      "tags": ["pedagogy", "social", "intergenerational"]
+    },
+    {
+      "id": "youth_journeying",
+      "label": "Youth Journeying — Wanderjahre",
+      "type": "concept",
+      "description": "Adolescents move between projects — farm to mill to urban workshop. Self-determined years of exploration. Reimagined apprenticeship. Documented in De Gruyter as 'Wanderjahre als Zeit des Lernens'.",
+      "parent": "learning",
+      "references": ["Sennett 2009", "Shu et al. 2020", "De Gruyter 2025"],
+      "tags": ["youth", "mobility", "apprenticeship"]
+    },
+    {
+      "id": "community_leadership",
+      "label": "Community Leadership (University Subject)",
+      "type": "concept",
+      "description": "Proposed new university discipline combining economics, sociology, architecture, education, creative arts — training people to lead transformative community projects.",
+      "parent": "learning",
+      "source": "ragnar",
+      "tags": ["education", "university", "future"]
+    },
+    {
+      "id": "entrepreneurship",
+      "label": "Entrepreneurship",
+      "type": "pillar",
+      "description": "Community-based enterprise. Reviving abandoned properties. Commons-based resource sharing.",
+      "parent": "pillars",
+      "children": ["community_enterprise", "commons", "rural_revitalization", "creative_class"],
+      "tags": ["economics"]
+    },
+    {
+      "id": "community_enterprise",
+      "label": "Community-Based Enterprise",
+      "type": "concept",
+      "description": "Entrepreneurial communities in structurally weak areas. Start-ups, workshops, services founded on basic income stability.",
+      "parent": "entrepreneurship",
+      "references": ["Markley et al. 2015", "Kennedy 2021", "Buratti et al. 2022", "Torri 2010", "Mason 2022"],
+      "tags": ["economics", "local"]
+    },
+    {
+      "id": "commons",
+      "label": "The Commons & Commoning",
+      "type": "concept",
+      "description": "Shared resources, jointly managed. Medieval pastures to modern commons projects. Managing resources together rather than competing.",
+      "parent": "entrepreneurship",
+      "references": ["Bollier & Helfrich 2012", "Baldauf & Gruber 2016", "Kirwan et al. 2016", "Gruber & Ngo 2018", "Hardin 1968"],
+      "tags": ["economics", "governance", "history"]
+    },
+    {
+      "id": "rural_revitalization",
+      "label": "Rural Revitalization",
+      "type": "concept",
+      "description": "Abandoned farms, chateaux, train stations, dairies in East Germany as opportunities. Thousands of vacant properties waiting.",
+      "parent": "entrepreneurship",
+      "quotes": [
+        {"text": "Scattered throughout Anhalt, like other regions in eastern Germany, are numerous abandoned properties just waiting for people to get together to make something out of them.", "source": "tomasz"}
+      ],
+      "tags": ["geography", "development", "east_germany"]
+    },
+    {
+      "id": "creative_class",
+      "label": "Creative Class",
+      "type": "concept",
+      "description": "Florida's creative class discourse applied to rural transformation. Creativity as driver of community development.",
+      "parent": "entrepreneurship",
+      "references": ["Florida 2002/2005", "Lanz 2013", "Broecher & Painter 2021"],
+      "tags": ["creativity", "economics"]
+    },
+    {
+      "id": "community_building",
+      "label": "Community Building",
+      "type": "pillar",
+      "description": "Building diverse, democratic, sustainable communities. Inclusive of gender, disability, age, culture, tradition, religion, language.",
+      "parent": "pillars",
+      "children": ["inclusion", "intergenerational", "neighborly_structures"],
+      "tags": ["social", "community"]
+    },
+    {
+      "id": "inclusion",
+      "label": "Radical Inclusion",
+      "type": "concept",
+      "description": "Elders, people with disabilities, diverse cultural backgrounds. Reducing expensive care facilities through community integration.",
+      "parent": "community_building",
+      "tags": ["inclusion", "care", "diversity"]
+    },
+    {
+      "id": "intergenerational",
+      "label": "Intergenerational Living",
+      "type": "concept",
+      "description": "Multiple generations learning from each other. More adult caregivers per child. Male role models present.",
+      "parent": "community_building",
+      "tags": ["social", "care", "education"]
+    },
+    {
+      "id": "neighborly_structures",
+      "label": "Neighborly Structures & Mutual Aid",
+      "type": "concept",
+      "description": "Organic cooperation with village neighbors. Tractor help exchanged for field access. Firewood for services. Old patterns renewed.",
+      "parent": "community_building",
+      "quotes": [
+        {"text": "A village farmer helps to pull out fence posts with his tractor, and in return, this farmer cultivates fields on this property.", "source": "article"}
+      ],
+      "tags": ["local", "reciprocity", "village"]
+    },
+
+    {
+      "id": "transformation",
+      "label": "Transformation",
+      "type": "domain",
+      "description": "The binding philosophy — seeing oneself as part of economic, social, cultural, and ecological transformation.",
+      "parent": "root",
+      "children": ["transform_economic", "transform_social", "transform_cultural", "transform_ecological"],
+      "references": ["Brie & Klein 2011", "Göpel 2016", "Polanyi 1945", "United Nations 2016"]
+    },
+    {
+      "id": "transform_economic",
+      "label": "Economic Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "From capitalist accumulation toward commons-based, community-embedded economies. Reduced academization. Money redirected from bureaucracy to people.",
+      "tags": ["economics"]
+    },
+    {
+      "id": "transform_social",
+      "label": "Social Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "Rebuilding social cohesion, belonging, identity-promoting narratives. Creative disorder (Sennett) rather than top-down planning.",
+      "references": ["O'Donohue 1997/1998", "Sennett"],
+      "tags": ["sociology", "belonging"]
+    },
+    {
+      "id": "transform_cultural",
+      "label": "Cultural Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "Heritage preservation, Polish-German exchange, literature, music, crafts as cultural renewal. Emotional and social geographies in literature.",
+      "tags": ["culture", "heritage", "literature"]
+    },
+    {
+      "id": "transform_ecological",
+      "label": "Ecological Transformation",
+      "type": "concept",
+      "parent": "transformation",
+      "description": "Ecological building materials, organic farming, reduced mobility, biodiversity, climate-positive living. Green economy.",
+      "references": ["United Nations 2016"],
+      "tags": ["ecology", "climate", "sustainability"]
+    },
+
+    {
+      "id": "safeguards",
+      "label": "Safeguards & Critiques",
+      "type": "domain",
+      "description": "Honest engagement with risks, criticisms, and necessary protections.",
+      "parent": "root",
+      "children": ["democratic_oversight", "gdr_mistrust", "exploitation_risk", "capitalist_mindset"]
+    },
+    {
+      "id": "democratic_oversight",
+      "label": "Democratic Oversight",
+      "type": "concept",
+      "description": "Government agencies must oversee projects. Human rights guaranteed. Transparency, accessibility, financial disclosure. No indoctrination.",
+      "parent": "safeguards",
+      "tags": ["governance", "rights"]
+    },
+    {
+      "id": "gdr_mistrust",
+      "label": "GDR Mistrust of Commons",
+      "type": "concept",
+      "description": "In German society, mistrust of commons concepts recalls GDR socialism. Must be addressed openly.",
+      "parent": "safeguards",
+      "tags": ["history", "politics"]
+    },
+    {
+      "id": "exploitation_risk",
+      "label": "Risk of Exploitation",
+      "type": "concept",
+      "description": "Critics connect idea to abuse of power (e.g. Colonia Dignidad). Projects must prohibit conditioning, manipulation, subjugation.",
+      "parent": "safeguards",
+      "tags": ["ethics", "critique"]
+    },
+    {
+      "id": "capitalist_mindset",
+      "label": "Capitalist Mindset Persistence",
+      "type": "concept",
+      "description": "Klien (2019): people who long for self-created work can still be strongly influenced by capitalist thinking. Need to learn to release mental pressure.",
+      "parent": "safeguards",
+      "references": ["Klien 2019"],
+      "tags": ["psychology", "critique"]
+    }
+  ]
+}

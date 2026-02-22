@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "title": "Similar Projects — Research Notes",
+    "status": "DRAFT — NOT FOR PUBLICATION",
+    "description": "Projects in the Anhalt/Brandenburg/East Germany region with overlapping themes. No cooperations established yet. For research and inspiration only.",
+    "last_updated": "2026-02-22"
+  },
+  "projects": [
+    {
+      "name": "Coconat — Community and Concentrated Work in Nature",
+      "location": "Klein Glien, Bad Belzig, Brandenburg",
+      "url": "https://coconat-space.com",
+      "description": "Europe's first Workation Retreat. Coworking, coliving, makerspace (COCOLAB), startup hub. On a former estate in the Fläming region. Team retreats, residencies (indie games), community events.",
+      "relevance": "Closest in geography and spirit. Fläming is mentioned in the books as part of the bike route. Combines work, community, rural setting. More commercially developed — booking, events, startup hub.",
+      "themes": ["coworking", "community", "rural", "makers", "sustainability"],
+      "distance_from_farm": "~40km (Fläming region, between Wiesenburg and Bad Belzig)"
+    },
+    {
+      "name": "COCOLAB Makerspace",
+      "location": "Klein Glien (part of Coconat)",
+      "url": "https://cocolab.coconat-space.com",
+      "description": "Open workshop and makers retreat. High-tech workshop, team activities, community events. Compost heating plant. Partnership with SolarPunkNow and FH Potsdam design faculty.",
+      "relevance": "The maker/craft dimension that Hofwerk also aspires to. Interesting model for workshop space.",
+      "themes": ["making", "workshop", "sustainability", "design"]
+    },
+    {
+      "name": "Wiesenburg/Mark — Kunstbrücke",
+      "location": "Wiesenburg/Mark, Brandenburg",
+      "url": "https://www.kunstbruecke-wiesenburg.de",
+      "description": "Art and culture bridge in Wiesenburg. The town is mentioned in the books as an alternative train stop. Cultural events, exhibitions in the Fläming region.",
+      "relevance": "Cultural dimension. Wiesenburg is on the direct route to the farm.",
+      "themes": ["art", "culture", "rural"],
+      "status": "needs_verification"
+    },
+    {
+      "name": "Ferropolis — City of Iron",
+      "location": "Gräfenhainichen, Saxony-Anhalt",
+      "url": "https://www.ferropolis.de",
+      "description": "Open-air museum and event venue on a former open-cast mining site. Giant excavators as industrial monuments. Hosts festivals (Melt!, Splash!).",
+      "relevance": "Industrial heritage transformation in the same region. Different scale but similar theme of repurposing abandoned infrastructure.",
+      "themes": ["heritage", "transformation", "culture", "events"],
+      "distance_from_farm": "~50km east"
+    },
+    {
+      "name": "Bauhaus Dessau",
+      "location": "Dessau-Roßlau, Saxony-Anhalt",
+      "url": "https://www.bauhaus-dessau.de",
+      "description": "UNESCO World Heritage. The Bauhaus school's second home. Architecture, design, education. Open workshops, residencies.",
+      "relevance": "Dessau is the nearest city on the train line (one stop after Jeber-Bergfrieden). Design, education, community — historical parallel to integrating craft and intellectual work.",
+      "themes": ["design", "architecture", "education", "heritage"],
+      "distance_from_farm": "~15km"
+    },
+    {
+      "name": "Wörlitzer Gartenreich (Garden Kingdom of Dessau-Wörlitz)",
+      "location": "Wörlitz, Saxony-Anhalt",
+      "url": "https://www.gartenreich.de",
+      "description": "UNESCO World Heritage. 18th-century landscape garden. Enlightenment ideals made physical — education through landscape, integration of art and nature.",
+      "relevance": "Enlightenment-era precedent for integrating learning, nature, and community in the same region. Philosophical kinship.",
+      "themes": ["landscape", "education", "heritage", "enlightenment"],
+      "distance_from_farm": "~25km"
+    }
+  ]
+}
