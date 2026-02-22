@@ -23,31 +23,43 @@ The article that anchors the project in international academic discourse. It con
 
 Three volumes chronicle the physical and intellectual development of the project. Each is structured around a character prototype — a young person whose story illuminates the project's pedagogical and social dimensions.
 
-<figure style="max-width: 360px;">
-<img src="../images/covers/tomasz-en.jpg" alt="Tomasz — Volume 1 cover">
-<figcaption>Volume 1 — English edition</figcaption>
-</figure>
-
 ### Tomasz — Volume 1
+
+<div style="display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0;">
+<figure style="flex: 0 0 auto; max-width: 180px;">
+<img src="../images/covers/tomasz-en.jpg" alt="Tomasz — English edition">
+<figcaption>English edition</figcaption>
+</figure>
+<figure style="flex: 0 0 auto; max-width: 180px;">
+<img src="../images/covers/tomasz-de.jpg" alt="Tomasz — German edition">
+<figcaption>German edition</figcaption>
+</figure>
+</div>
 
 *Notes on Future Ways of Learning, Working, and Living. Educational Projects and Experiences on a Farmstead in Anhalt, Eastern Germany.*
 
 436 illustrations. The first year and a half: acquiring the farm, the first bitter winter, improvising life, beginning renovations. Tomasz is a young man from the Carpathian Mountains, homeschooled by a centenarian professor. Available in English, German, Polish, and Italian.
 
-[English edition](https://buchshop.bod.de/ludwik-notes-on-future-ways-of-learning-working-and-living-joachim-broecher-9783757808129) · [German edition](https://buchshop.bod.de/tomasz-oder-ueber-das-lernen-arbeiten-und-leben-der-zukunft-joachim-broecher-9783754347911)
+[German edition → BoD](https://buchshop.bod.de/tomasz-oder-ueber-das-lernen-arbeiten-und-leben-der-zukunft-joachim-broecher-9783754347911)
 
 ### Ludwik — Volume 2
+
+<div style="display: flex; gap: 2rem; flex-wrap: wrap; margin: 1.5rem 0;">
+<figure style="flex: 0 0 auto; max-width: 180px;">
+<img src="../images/covers/ludwik-en.jpg" alt="Ludwik — English edition">
+<figcaption>English edition</figcaption>
+</figure>
+<figure style="flex: 0 0 auto; max-width: 180px;">
+<img src="../images/covers/ludwik-de.jpg" alt="Ludwik — German edition">
+<figcaption>German edition</figcaption>
+</figure>
+</div>
 
 *Notes on Future Ways of Learning, Working, and Living. Educational Projects and Experiences on a Farmstead in Anhalt, Eastern Germany, Part II.*
 
 ~280 illustrations. The project deepens: stable reconstruction begins, horticultural experiments, the key role of music, Polish literature as cultural foundation, planting a walnut tree. Ludwik is a young pedagogue from Sopot, a gifted pianist who left the school system.
 
-[English edition](https://buchshop.bod.de/ludwik-notes-on-future-ways-of-learning-working-and-living-joachim-broecher-9783757808129) · [German edition](https://buchshop.bod.de/ludwik-oder-ueber-das-lernen-arbeiten-und-leben-der-zukunft-joachim-broecher-9783756821334)
-
-<figure style="max-width: 360px;">
-<img src="../images/covers/tomasz-de.jpg" alt="Tomasz — German edition cover">
-<figcaption>Volume 1 — German edition</figcaption>
-</figure>
+[English edition → BoD](https://buchshop.bod.de/ludwik-notes-on-future-ways-of-learning-working-and-living-joachim-broecher-9783757808129) · [German edition → BoD](https://buchshop.bod.de/ludwik-oder-ueber-das-lernen-arbeiten-und-leben-der-zukunft-joachim-broecher-9783756821334)
 
 ### Ragnar — Volume 3
 

@@ -6,6 +6,16 @@ The project is not just a renovation. It is an attempt to think differently abou
 
 <p class="divider">· · ·</p>
 
+## Explore
+
+- **[Concept Map](concept-map/)** — an interactive visualization of the project's theoretical landscape
+- **[Transformation](transformation/)** — the four dimensions of change: economic, social, cultural, ecological
+- **[Sustainability & the UN Goals](sustainability/)** — how the project maps to the 2030 Agenda
+- **[Craftsmanship & Making](craftsmanship/)** — why making things with your hands matters
+- **[The Language of the Project](word-cloud/)** — a word cloud of the concepts that shape the work
+
+<p class="divider">· · ·</p>
+
 ## The Diagnosis
 
 More and more people experience alienation in educational institutions, in work life, and fragmentation in their personal life. There is no narrative that effectively holds this society together. Young people look for meaning in films, series, and games — many would rather guard the Wall of Ice in *Game of Thrones* than find a place in a society experienced as indifferent and functionalist.
@@ -42,6 +52,8 @@ Abandoned properties in East Germany — farms, train stations, chateaux — tur
 
 The binding philosophy: seeing oneself as part of economic, social, cultural, and ecological transformation. Not reform of existing systems, but the creation of new ones alongside them.
 
+[Read more about transformation →](transformation/)
+
 ---
 
 ## Philosophical Roots
@@ -68,7 +80,7 @@ The project engages honestly with criticism:
 
 - Government agencies must oversee such projects. Human rights must be guaranteed. Democratic principles must be reality.
 - In German society, there is mistrust of commons concepts — they recall GDR socialism. This must be addressed openly.
-- Critics connect the idea to abuse of power (Colonia Dignidad). Projects must prohibit conditioning, indoctrination, manipulation.
+- Critics connect the idea to abuse of power (e.g. Colonia Dignidad). Projects must prohibit conditioning, indoctrination, manipulation.
 - People who long for self-created work can still carry the mental pressure of the capitalist system. Learning to release that pressure is part of the transformation.
 
 > "We hope to stimulate discussion so that people question the fixation on the accumulation of material goods that is dominant in today's Western societies due to capitalism, hoping to arrive more at a philosophy of being."

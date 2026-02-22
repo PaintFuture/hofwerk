@@ -1,0 +1,13 @@
+{{ define "main" }}
+<article>
+  <h2>{{ .Title }}</h2>
+  {{ with .Params.epigraph }}<p class="epigraph">{{ . }}</p>{{ end }}
+  {{ .Content }}
+</article>
+{{ end }}
+
+{{ define "scripts" }}
+{{ range .Params.scripts }}
+<script src="{{ . | relURL }}"></script>
+{{ end }}
+{{ end }}
