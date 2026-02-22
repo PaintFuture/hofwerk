@@ -7,10 +7,10 @@ scripts:
   - "js/word-cloud.js"
 ---
 
-The concepts that shape the project, sized by their centrality. Hover to highlight.
+The concepts that shape the project, sized by their centrality. **Click** any term to read its description and discover related concepts. Click again to deselect.
 
-<div id="word-cloud" style="position: relative; width: 100%; min-height: 400px; margin: 2rem 0;"></div>
+<div id="word-cloud" style="position: relative; width: 100%; min-height: 450px; margin: 2rem 0;"></div>
 
-These words are drawn from the [knowledge graph](https://github.com/PaintFuture/hofwerk/tree/main/data) — a structured map of the project's theoretical and practical dimensions. Some are academic terms (*communitarianism*, *social sculpture*). Some are German words that resist translation (*Wanderjahre*, *Dreiseitenhof*). Some are simply what happens on the farm (*walnut tree*, *music*, *agriculture*).
+Some are academic terms — *communitarianism*, *social sculpture*, *resonance*. Some are German words that resist translation — *Wanderjahre*, *Dreiseitenhof*. Some are simply what happens on the farm — *walnut tree*, *music*, *agriculture*. Together, they form a vocabulary for a different way of living.
 
-Together, they form a vocabulary for a different way of living — one that is still being written.
+The colors indicate domains: <span style="color: #5a6e4a;">■</span> pillars of the model, <span style="color: #7a6e9b;">■</span> philosophical roots, <span style="color: #b8860b;">■</span> transformation, <span style="color: #6b8e7b;">■</span> the farm in practice.

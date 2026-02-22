@@ -1,7 +1,7 @@
 {
   "meta": {
     "title": "Transformative Community Projects — Conceptual Knowledge Graph",
-    "version": "0.2",
+    "version": "0.3",
     "description": "Thematic and theoretical structure. Reusable across projects.",
     "sources": [
       {"id": "article", "cite": "Broecher & Painter (2023) Frontiers in Sociology", "doi": "10.3389/fsoc.2023.1164293"},
@@ -89,7 +89,7 @@
       "type": "domain",
       "description": "The intellectual traditions and thinkers informing the project.",
       "parent": "root",
-      "children": ["communitarianism", "odonohue", "fromm_being", "strong_democracy", "person_centered", "resonance", "social_sculpture"]
+      "children": ["communitarianism", "odonohue", "fromm_being", "strong_democracy", "person_centered", "resonance", "social_sculpture", "dewey", "sennett_craftsman", "thoreau", "illich", "polanyi"]
     },
     {
       "id": "communitarianism",
@@ -156,6 +156,56 @@
       "parent": "philosophy",
       "references": ["De Gruyter 2025, Ch. 'Soziale Plastik im Sinne von Joseph Beuys'"],
       "tags": ["art", "philosophy", "participation"]
+    },
+
+    {
+      "id": "dewey",
+      "label": "Dewey — Learning by Doing",
+      "type": "concept",
+      "description": "Experiential education. Learning through action, not instruction. The philosophical ancestor of the project's pedagogy.",
+      "parent": "philosophy",
+      "references": ["Dewey 1938 (Experience and Education)"],
+      "tags": ["philosophy", "education", "experiential"],
+      "links": ["experiential", "highscope"]
+    },
+    {
+      "id": "sennett_craftsman",
+      "label": "Sennett — The Craftsman",
+      "type": "concept",
+      "description": "Craftsmanship as a basic human impulse — the desire to do a job well for its own sake. Manual skill as a form of thinking. The workshop as a space of knowledge.",
+      "parent": "philosophy",
+      "references": ["Sennett 2009 (The Craftsman)"],
+      "tags": ["philosophy", "craft", "labor"],
+      "links": ["meaningful_labor", "youth_journeying"]
+    },
+    {
+      "id": "thoreau",
+      "label": "Thoreau — Simplicity & Deliberate Living",
+      "type": "concept",
+      "description": "Walden — simplicity, self-reliance, deliberate living. The philosophical precedent for rural retreat as social experiment.",
+      "parent": "philosophy",
+      "references": ["Thoreau 2016 (Walden, 1854)"],
+      "tags": ["philosophy", "simplicity", "nature"]
+    },
+    {
+      "id": "illich",
+      "label": "Illich — Deschooling Society",
+      "type": "concept",
+      "description": "The radical critique of institutional education. Learning webs instead of schools. Conviviality as an alternative to industrial productivity.",
+      "parent": "philosophy",
+      "references": ["Illich 1970 (Deschooling Society)", "Illich 1973 (Tools for Conviviality)"],
+      "tags": ["philosophy", "education", "critique"],
+      "links": ["self_directed_education"]
+    },
+    {
+      "id": "polanyi",
+      "label": "Polanyi — The Great Transformation",
+      "type": "concept",
+      "description": "How markets became disembedded from society under capitalism — and the counter-movement to re-embed them in social relationships.",
+      "parent": "philosophy",
+      "references": ["Polanyi 1945 (The Great Transformation)"],
+      "tags": ["philosophy", "economics", "history"],
+      "links": ["transform_economic", "commons"]
     },
 
     {
