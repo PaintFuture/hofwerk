@@ -1,0 +1,6 @@
+name = "Hofwerk"
+license = "MIT"
+description = "A minimal field journal theme"
+
+[author]
+  name = "Hofwerk"

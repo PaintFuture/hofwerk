@@ -1,0 +1,14 @@
+baseURL = 'https://paintfuture.github.io/hofwerk/'
+languageCode = 'en'
+title = 'Hofwerk'
+theme = 'hofwerk'
+
+[params]
+  subtitle = 'Transformative Community Projects'
+  description = 'Exploring sustainable forms of learning, working, and living from a farmstead in Anhalt, Eastern Germany.'
+  author = 'Broecher'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
